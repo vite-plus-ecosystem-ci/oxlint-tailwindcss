@@ -1,6 +1,6 @@
 import { resolve } from 'node:path'
-import { beforeAll } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { beforeAll } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { noUnnecessaryArbitraryValue } from '../../src/rules/no-unnecessary-arbitrary-value'
 import { getLoadedDesignSystem, resetDesignSystem } from '../../src/design-system/loader'
 import { runWithFixture } from '../utils/with-fixture'

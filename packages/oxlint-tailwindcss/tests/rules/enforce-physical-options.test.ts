@@ -6,7 +6,7 @@
  * enforce-logical. This file pins down both options.
  */
 
-import { RuleTester } from 'oxlint/plugins-dev'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { enforcePhysical } from '../../src/rules/enforce-physical'
 import { enforceLogical } from '../../src/rules/enforce-logical'
 

@@ -4,7 +4,7 @@
  * case so test files don't have to duplicate it inline on every case.
  */
 
-import { RuleTester } from 'oxlint/plugins-dev'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 
 type RunArgs = Parameters<RuleTester['run']>
 type Rule = RunArgs[1]

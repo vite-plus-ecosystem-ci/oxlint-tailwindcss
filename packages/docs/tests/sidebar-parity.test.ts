@@ -6,7 +6,7 @@
  */
 import { existsSync, readdirSync } from 'node:fs'
 import { join, relative, resolve } from 'node:path'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import config from '../.vitepress/config.ts'
 
 const DOCS = resolve(__dirname, '..')

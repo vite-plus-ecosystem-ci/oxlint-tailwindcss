@@ -1,4 +1,4 @@
-import type { ESTree } from '@oxlint/plugins'
+import type { ESTree } from 'vite-plus/lint/plugins'
 import type { CalleeExtractorKind, PluginSettings } from '../types'
 import { compileRegexList } from './allowlist'
 import { settingsKey } from './context'

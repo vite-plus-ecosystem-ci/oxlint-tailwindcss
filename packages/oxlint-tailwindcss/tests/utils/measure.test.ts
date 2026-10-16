@@ -1,5 +1,5 @@
 import { resolve } from 'node:path'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { getLoadedDesignSystem } from '../../src/design-system/loader'
 import { closestOnScale, formatOptions, measure } from '../../src/utils/measure'
 

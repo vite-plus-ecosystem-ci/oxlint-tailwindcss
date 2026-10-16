@@ -5,7 +5,7 @@
  * output to detect regressions when optimizing the PRECOMPUTE_SCRIPT.
  */
 
-import { describe, it, expect, beforeAll } from 'vitest'
+import { describe, it, expect, beforeAll } from 'vite-plus/test'
 import { resolve } from 'node:path'
 import { loadDesignSystemSync, type PrecomputedData } from '../../src/design-system/sync-loader'
 import { DesignSystemCache } from '../../src/design-system/cache'

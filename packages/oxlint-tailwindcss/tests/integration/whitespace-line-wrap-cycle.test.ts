@@ -18,8 +18,8 @@
  *   - no-unnecessary-whitespace, run on that exact output, reports nothing.
  */
 
-import { describe } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { describe } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { noUnnecessaryWhitespace } from '../../src/rules/no-unnecessary-whitespace'
 import { enforceConsistentLineWrapping } from '../../src/rules/enforce-consistent-line-wrapping'
 

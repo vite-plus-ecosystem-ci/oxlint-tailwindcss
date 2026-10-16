@@ -1,6 +1,6 @@
 import { resolve } from 'node:path'
-import { beforeAll, describe, expect, it } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { beforeAll, describe, expect, it } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { noUnknownClasses } from '../../src/rules/no-unknown-classes'
 import { getLoadedDesignSystem, resetDesignSystem } from '../../src/design-system/loader'
 import { CSS_PROPERTY_NAMES } from '../../src/utils/css-properties'

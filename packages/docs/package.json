@@ -7,12 +7,12 @@
     "dev": "pnpm -C ../oxlint-tailwindcss build && pnpm generate && vitepress dev .",
     "build": "pnpm -C ../oxlint-tailwindcss build && pnpm generate && vitepress build . && node --experimental-strip-types scripts/check-dist.ts",
     "preview": "vitepress preview .",
-    "generate": "node --experimental-strip-types scripts/generate-rules.ts && node --experimental-strip-types scripts/generate-blocks.ts && oxfmt --write rules es/rules setup.md es/setup.md shadcn.md es/shadcn.md migration es/migration benchmark.md es/benchmark.md comparison.md es/comparison.md && cd ../.. && oxfmt --write README.md packages/oxlint-tailwindcss/README.md skills agent",
-    "test": "vitest run"
+    "generate": "node --experimental-strip-types scripts/generate-rules.ts && node --experimental-strip-types scripts/generate-blocks.ts && vp fmt --write rules es/rules setup.md es/setup.md shadcn.md es/shadcn.md migration es/migration benchmark.md es/benchmark.md comparison.md es/comparison.md && cd ../.. && vp fmt --write README.md packages/oxlint-tailwindcss/README.md skills agent",
+    "test": "vp test run"
   },
   "devDependencies": {
     "oxlint-tailwindcss": "workspace:*",
-    "vitepress": "^2.0.0-alpha.20",
-    "vitest": "^5.0.3"
+    "vite-plus": "catalog:",
+    "vitepress": "^2.0.0-alpha.20"
   }
 }
