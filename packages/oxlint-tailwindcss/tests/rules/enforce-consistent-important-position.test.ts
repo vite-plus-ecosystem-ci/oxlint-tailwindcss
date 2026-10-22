@@ -1,4 +1,4 @@
-import { RuleTester } from 'oxlint/plugins-dev'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { enforceConsistentImportantPosition } from '../../src/rules/enforce-consistent-important-position'
 
 const ruleTester = new RuleTester()

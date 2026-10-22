@@ -7,7 +7,7 @@
  * Run: pnpm vitest run tests/benchmarks/cache-strategies.test.ts --reporter=verbose
  */
 
-import { describe, it, expect, beforeAll, afterAll } from 'vitest'
+import { describe, it, expect, beforeAll, afterAll } from 'vite-plus/test'
 import { resolve, join } from 'node:path'
 import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readFileSync, copyFileSync, rmSync, statSync } from 'node:fs'

@@ -1,4 +1,4 @@
-import { describe, expect, it, beforeAll, afterAll } from 'vitest'
+import { describe, expect, it, beforeAll, afterAll } from 'vite-plus/test'
 import { resolve } from 'node:path'
 import {
   getLoadedDesignSystem,

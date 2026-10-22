@@ -21,19 +21,18 @@
     "test": "pnpm -C packages/oxlint-tailwindcss test && pnpm -C packages/docs test",
     "test:watch": "pnpm -C packages/oxlint-tailwindcss test:watch",
     "bench": "pnpm -C packages/oxlint-tailwindcss bench",
-    "lint": "oxlint",
-    "lint:fix": "oxlint --fix",
-    "lint:types": "oxlint --type-aware packages/oxlint-tailwindcss/src",
-    "format": "oxfmt",
-    "format:check": "oxfmt --check",
+    "lint": "vp lint",
+    "lint:fix": "vp lint --fix",
+    "lint:types": "vp lint --type-aware packages/oxlint-tailwindcss/src",
+    "format": "vp fmt",
+    "format:check": "vp fmt --check",
     "typecheck": "pnpm -C packages/oxlint-tailwindcss typecheck",
     "docs:build": "pnpm -C packages/docs build",
-    "docs:preview": "pnpm -C packages/docs preview"
+    "docs:preview": "pnpm -C packages/docs preview",
+    "prepare": "vp config"
   },
   "devDependencies": {
-    "oxfmt": "catalog:",
-    "oxlint": "catalog:",
-    "oxlint-tsgolint": "^7.0.2003"
+    "vite-plus": "catalog:"
   },
   "engines": {
     "node": "^22.18.0 || ^24.11.0 || >=26.0.0",

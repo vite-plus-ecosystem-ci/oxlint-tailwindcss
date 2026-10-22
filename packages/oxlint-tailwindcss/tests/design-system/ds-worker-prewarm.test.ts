@@ -5,7 +5,7 @@
  * the precompute; `prewarm` starts all of it in the background, and the first
  * request only waits for whatever is left.
  */
-import { afterEach, describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it } from 'vite-plus/test'
 import { resolve } from 'node:path'
 import { DesignSystemWorker, makeWorkerScript } from '../../src/design-system/ds-worker'
 import { SortServiceError } from '../../src/utils/fatal'
