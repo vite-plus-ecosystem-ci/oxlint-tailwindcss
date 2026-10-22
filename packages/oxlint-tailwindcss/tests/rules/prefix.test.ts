@@ -10,7 +10,7 @@
  */
 
 import { resolve } from 'node:path'
-import { beforeAll, afterAll } from 'vitest'
+import { beforeAll, afterAll } from 'vite-plus/test'
 import { noUnknownClasses } from '../../src/rules/no-unknown-classes'
 import { consistentVariantOrder } from '../../src/rules/consistent-variant-order'
 import { enforceSortOrder } from '../../src/rules/enforce-sort-order'

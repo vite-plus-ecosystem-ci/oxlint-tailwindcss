@@ -1,6 +1,6 @@
 import { resolve } from 'node:path'
-import { beforeAll, describe, it, expect } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { beforeAll, describe, it, expect } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { enforceSortOrder } from '../../src/rules/enforce-sort-order'
 import { getLoadedDesignSystem, resetDesignSystem } from '../../src/design-system/loader'
 import type { DesignSystemCache } from '../../src/design-system/cache'

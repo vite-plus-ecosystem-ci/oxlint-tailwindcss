@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeAll } from 'vitest'
+import { describe, it, expect, beforeAll } from 'vite-plus/test'
 import { resolve } from 'node:path'
 import { getLoadedDesignSystem, resetDesignSystem } from '../../src/design-system/loader'
 import { splitClasses } from '../../src/utils/class-splitter'

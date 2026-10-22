@@ -5,7 +5,7 @@
  * package's files to its own CSS, with no cross-contamination.
  */
 
-import { describe, it, expect, beforeAll, afterAll, beforeEach } from 'vitest'
+import { describe, it, expect, beforeAll, afterAll, beforeEach } from 'vite-plus/test'
 import { resolve, join, relative } from 'node:path'
 import { mkdirSync, copyFileSync, writeFileSync, rmSync } from 'node:fs'
 import {

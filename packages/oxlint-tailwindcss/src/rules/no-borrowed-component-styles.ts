@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative, resolve } from 'node:path'
-import { defineRule } from '@oxlint/plugins'
-import type { ESTree } from '@oxlint/plugins'
+import { defineRule } from 'vite-plus/lint/plugins'
+import type { ESTree } from 'vite-plus/lint/plugins'
 import { ruleDocs } from '../utils/rule-docs'
 import {
   createExtractorVisitors,

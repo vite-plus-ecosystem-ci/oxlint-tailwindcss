@@ -1,4 +1,4 @@
-import { defineConfig } from 'tsdown'
+import { defineConfig } from 'vite-plus/pack'
 
 export default defineConfig({
   // `config` is `oxlint-tailwindcss/config` (#218). It imports nothing at

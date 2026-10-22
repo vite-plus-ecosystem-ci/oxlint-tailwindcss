@@ -1,6 +1,6 @@
 import { resolve } from 'node:path'
-import { describe } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { describe } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { enforceShorthand } from '../../src/rules/enforce-shorthand'
 import { makeFixtureRunner } from '../utils/with-fixture'
 
