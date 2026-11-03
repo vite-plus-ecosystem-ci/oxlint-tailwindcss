@@ -1,4 +1,4 @@
-import { RuleTester } from 'oxlint/plugins-dev'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { enforceConsistentVariableSyntax } from '../../src/rules/enforce-consistent-variable-syntax'
 
 const ruleTester = new RuleTester()

@@ -1,6 +1,6 @@
 import { resolve } from 'node:path'
-import { beforeAll, describe, it, test, expect } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { beforeAll, describe, it, test, expect } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import {
   noConflictingClasses,
   neededVars,

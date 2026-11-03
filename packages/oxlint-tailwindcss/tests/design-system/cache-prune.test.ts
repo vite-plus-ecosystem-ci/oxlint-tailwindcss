@@ -5,7 +5,7 @@
  * plugin's own cache files unused for 30 days are removed; a cache hit
  * refreshes a file's mtime, so what's in use never expires.
  */
-import { afterAll, describe, expect, it } from 'vitest'
+import { afterAll, describe, expect, it } from 'vite-plus/test'
 import { existsSync, mkdtempSync, rmSync, statSync, utimesSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join, resolve } from 'node:path'

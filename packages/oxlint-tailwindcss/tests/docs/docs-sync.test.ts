@@ -9,7 +9,7 @@
  */
 import { readdirSync, readFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import plugin from '../../src/index'
 import { DEFAULT_EXTRACTOR_CONFIG } from '../../src/utils/extractors'
 import { DS_UNAVAILABLE_MESSAGE_ID } from '../../src/utils/fatal'

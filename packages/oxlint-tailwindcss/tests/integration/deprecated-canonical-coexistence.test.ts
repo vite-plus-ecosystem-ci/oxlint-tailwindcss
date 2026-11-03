@@ -18,8 +18,8 @@
  */
 
 import { resolve } from 'node:path'
-import { beforeAll, describe, expect, it } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { beforeAll, describe, expect, it } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { enforceCanonical } from '../../src/rules/enforce-canonical'
 import { noDeprecatedClasses, DEPRECATED_MAP } from '../../src/rules/no-deprecated-classes'
 import { getLoadedDesignSystem, resetDesignSystem } from '../../src/design-system/loader'

@@ -7,7 +7,7 @@
  */
 import { existsSync, lstatSync, readFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { LINTABLE } from '../../../../agent/claude-code/scripts/lib.mjs'
 
 const REPO = resolve(__dirname, '../../../..')

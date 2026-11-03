@@ -1,4 +1,4 @@
-import { defineRule, type ESTree } from '@oxlint/plugins'
+import { defineRule, type ESTree } from 'vite-plus/lint/plugins'
 import { ruleDocs } from '../utils/rule-docs'
 import { createExtractorVisitors, type ClassLocation } from '../utils/extractors'
 import { splitClasses } from '../utils/class-splitter'

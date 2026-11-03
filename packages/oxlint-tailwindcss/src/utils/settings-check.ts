@@ -11,7 +11,7 @@
  * `entryPoint` is left to the loader, which reports a bad one with a hint.
  */
 
-import type { ESTree } from '@oxlint/plugins'
+import type { ESTree } from 'vite-plus/lint/plugins'
 import type { CalleeExtractorKind, ExtractorExclusions, PluginSettings } from '../types'
 import { findBestSuggestion } from './levenshtein'
 

@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitest/config'
+import { defineConfig } from 'vite-plus'
 
 // Tests of the docs site's own scripts (the rule-page generator) and of the
 // markdown it publishes. The rule registry comes from the built plugin, so

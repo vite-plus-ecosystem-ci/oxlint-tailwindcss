@@ -1,4 +1,4 @@
-import { RuleTester } from 'oxlint/plugins-dev'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { maxClassCount } from '../../src/rules/max-class-count'
 
 const ruleTester = new RuleTester()
