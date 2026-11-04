@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { SITE_URL } from '../.vitepress/seo.ts'
 import { CRAWLERS, checkLive } from '../scripts/check-live.ts'
 

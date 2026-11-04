@@ -1,4 +1,4 @@
-import { definePlugin } from '@oxlint/plugins'
+import { definePlugin } from 'vite-plus/lint/plugins'
 import { noDuplicateClasses } from './rules/no-duplicate-classes'
 import { noUnnecessaryWhitespace } from './rules/no-unnecessary-whitespace'
 import { noUnknownClasses } from './rules/no-unknown-classes'

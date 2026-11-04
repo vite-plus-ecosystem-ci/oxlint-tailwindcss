@@ -14,8 +14,8 @@
  */
 
 import { resolve } from 'node:path'
-import { beforeAll, describe } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { beforeAll, describe } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { preferScaleToken } from '../../src/rules/prefer-scale-token'
 import { getLoadedDesignSystem, resetDesignSystem } from '../../src/design-system/loader'
 import { makeFixtureRunner, runWithFixture } from '../utils/with-fixture'

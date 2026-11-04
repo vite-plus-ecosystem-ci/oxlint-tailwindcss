@@ -10,7 +10,7 @@
  */
 import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative, resolve } from 'node:path'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { DOCS_URL } from '../../src/utils/rule-docs'
 
 const DOCS = resolve(__dirname, '../../../docs')

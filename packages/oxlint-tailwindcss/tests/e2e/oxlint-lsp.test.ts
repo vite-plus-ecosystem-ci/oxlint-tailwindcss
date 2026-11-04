@@ -10,7 +10,7 @@ import { spawn, type ChildProcess } from 'node:child_process'
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { pathToFileURL } from 'node:url'
-import { afterAll, beforeAll, describe, expect, it } from 'vitest'
+import { afterAll, beforeAll, describe, expect, it } from 'vite-plus/test'
 import { makeAgentProject, PLUGIN_SCRIPTS } from './helpers/agent-project'
 import { assertFreshDist } from './helpers/dist'
 

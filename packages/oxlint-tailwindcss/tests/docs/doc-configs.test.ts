@@ -18,7 +18,7 @@
  * Another JS plugin in a config — `@shadcn/lint` on /shadcn — is dropped with
  * its rules; bench/interop.mjs loads that config with it.
  */
-import { afterAll, beforeAll, describe, expect, it } from 'vitest'
+import { afterAll, beforeAll, describe, expect, it } from 'vite-plus/test'
 import { execFileSync } from 'node:child_process'
 import {
   existsSync,

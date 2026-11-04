@@ -1,4 +1,4 @@
-import { RuleTester } from 'oxlint/plugins-dev'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { enforceNegativeArbitraryValues } from '../../src/rules/enforce-negative-arbitrary-values'
 
 const ruleTester = new RuleTester()

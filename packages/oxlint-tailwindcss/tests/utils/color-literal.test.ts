@@ -8,7 +8,7 @@
  * so `0_0_4px_rgb(…)` has to break into words or the function name never surfaces.
  */
 
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { containsColorLiteral } from '../../src/utils/color-literal'
 
 describe('containsColorLiteral', () => {

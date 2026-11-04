@@ -48,7 +48,7 @@
  */
 
 import { resolve } from 'node:path'
-import { afterAll, beforeAll, describe } from 'vitest'
+import { afterAll, beforeAll, describe } from 'vite-plus/test'
 import { makeFixtureRunner } from '../utils/with-fixture'
 import { preferThemeTokens } from '../../src/rules/prefer-theme-tokens'
 import { enforceCanonical } from '../../src/rules/enforce-canonical'

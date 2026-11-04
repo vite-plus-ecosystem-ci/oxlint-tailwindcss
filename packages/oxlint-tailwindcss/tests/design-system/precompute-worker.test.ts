@@ -9,7 +9,7 @@
  * single environmental failure from storming into thousands of re-attempts.
  */
 
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect } from 'vite-plus/test'
 import { resolve } from 'node:path'
 import { existsSync, readdirSync, readFileSync, rmSync, utimesSync, writeFileSync } from 'node:fs'
 import { basename, dirname } from 'node:path'
