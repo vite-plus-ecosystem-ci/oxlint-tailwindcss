@@ -8,7 +8,7 @@
  * Run: pnpm bench
  */
 
-import { afterAll, describe, expect, it } from 'vitest'
+import { afterAll, describe, expect, it } from 'vite-plus/test'
 import { readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { loadDesignSystemSync, takeLoadReport } from '../../src/design-system/sync-loader'

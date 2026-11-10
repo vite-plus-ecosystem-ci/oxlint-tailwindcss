@@ -1,4 +1,4 @@
-import { afterAll, beforeAll, describe, expect, it } from 'vitest'
+import { afterAll, beforeAll, describe, expect, it } from 'vite-plus/test'
 import { spawnSync } from 'node:child_process'
 import { createRequire } from 'node:module'
 import {

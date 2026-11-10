@@ -2,8 +2,8 @@ packages:
   - 'packages/*'
 catalog:
   '@oxlint/plugins': ^1.90.0
-  oxfmt: ^0.75.0
-  oxlint: ^1.90.0
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be
+  vite-plus: 0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be
 allowBuilds:
   esbuild: true
   # wrangler-action runs `pnpm add wrangler` for the Cloudflare Pages deploy;
@@ -33,3 +33,10 @@ minimumReleaseAgeExclude:
   - yuku-parser
   - '@yuku-core/*'
   - '@yuku-toolchain/*'
+overrides:
+  vite@*: 'catalog:'
+peerDependencyRules:
+  allowAny:
+    - vite
+  allowedVersions:
+    vite: '*'

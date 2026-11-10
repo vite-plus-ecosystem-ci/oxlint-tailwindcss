@@ -1,5 +1,5 @@
-import type { ESTree } from '@oxlint/plugins'
-import { describe, expect, it } from 'vitest'
+import type { ESTree } from 'vite-plus/lint/plugins'
+import { describe, expect, it } from 'vite-plus/test'
 import type { CalleeExtractorKind } from '../../src/types'
 import {
   DEFAULT_EXTRACTOR_CONFIG,

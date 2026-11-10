@@ -6,7 +6,7 @@
  * `designSystemUnavailable` diagnostic.
  */
 
-import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, test, vi } from 'vite-plus/test'
 import { resolve } from 'node:path'
 import {
   canonicalizeClassesSync,

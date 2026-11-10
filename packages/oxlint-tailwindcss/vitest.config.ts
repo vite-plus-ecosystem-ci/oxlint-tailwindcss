@@ -1,6 +1,6 @@
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
-import { defineConfig } from 'vitest/config'
+import { defineConfig } from 'vite-plus'
 
 // Give each `pnpm test` invocation its OWN design-system disk-cache dir. The
 // cache in sync-loader is otherwise a single per-uid dir shared by every
