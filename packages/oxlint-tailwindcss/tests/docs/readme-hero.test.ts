@@ -8,7 +8,7 @@
  * prettier-plugin-tailwindcss" is not installed here; it was checked by hand
  * (prettier 3.9.9, prettier-plugin-tailwindcss 0.8.1).
  */
-import { afterAll, beforeAll, describe, expect, it } from 'vitest'
+import { afterAll, beforeAll, describe, expect, it } from 'vite-plus/test'
 import { execFileSync } from 'node:child_process'
 import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'

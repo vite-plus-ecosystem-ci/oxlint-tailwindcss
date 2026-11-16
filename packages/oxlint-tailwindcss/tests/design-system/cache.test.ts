@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect } from 'vite-plus/test'
 import { DesignSystemCache } from '../../src/design-system/cache'
 import { type PrecomputedData } from '../../src/design-system/sync-loader'
 import { makeDeclarations } from '../utils/declarations'

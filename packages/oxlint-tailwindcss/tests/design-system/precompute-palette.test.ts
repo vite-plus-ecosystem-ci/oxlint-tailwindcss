@@ -4,7 +4,7 @@
  * no-default-palette reads. An artifact written before the split has neither
  * list and counts as a cache miss, so the rule can never go quiet on an old one.
  */
-import { afterAll, describe, expect, it } from 'vitest'
+import { afterAll, describe, expect, it } from 'vite-plus/test'
 import { readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { cacheArtifactPaths, loadDesignSystemSync } from '../../src/design-system/sync-loader'

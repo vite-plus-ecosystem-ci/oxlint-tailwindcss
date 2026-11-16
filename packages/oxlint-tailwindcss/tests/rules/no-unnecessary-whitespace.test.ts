@@ -1,4 +1,4 @@
-import { RuleTester } from 'oxlint/plugins-dev'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { noUnnecessaryWhitespace } from '../../src/rules/no-unnecessary-whitespace'
 
 const ruleTester = new RuleTester()

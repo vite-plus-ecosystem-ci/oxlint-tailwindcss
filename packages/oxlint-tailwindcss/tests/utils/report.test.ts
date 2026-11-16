@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { splitClassesWithSeparators } from '../../src/utils/class-splitter'
 import type { ClassLocation } from '../../src/utils/extractors'
 import { reportClassReplacements, reportClassSuggestion } from '../../src/utils/report'

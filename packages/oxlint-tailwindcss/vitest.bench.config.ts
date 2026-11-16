@@ -1,6 +1,6 @@
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
-import { defineConfig } from 'vitest/config'
+import { defineConfig } from 'vite-plus'
 
 /**
  * Benchmarks run under their own config.

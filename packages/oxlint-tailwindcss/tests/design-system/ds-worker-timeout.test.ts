@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { parseRequestTimeout } from '../../src/design-system/ds-worker'
 
 // OXLINT_TAILWINDCSS_WORKER_REQUEST_TIMEOUT, as documented on /settings:

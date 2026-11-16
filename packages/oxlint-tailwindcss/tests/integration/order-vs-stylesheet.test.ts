@@ -16,7 +16,7 @@
 
 import { readFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
-import { beforeAll, describe, expect, it } from 'vitest'
+import { beforeAll, describe, expect, it } from 'vite-plus/test'
 import { compile } from '@tailwindcss/node'
 import { loadDesignSystemSync } from '../../src/design-system/sync-loader'
 import { DesignSystemCache } from '../../src/design-system/cache'

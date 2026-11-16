@@ -22,7 +22,7 @@
 
 import { readFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
-import { beforeAll, describe, expect, it } from 'vitest'
+import { beforeAll, describe, expect, it } from 'vite-plus/test'
 import { compile } from '@tailwindcss/node'
 import { SHORTHAND_FAMILIES, type ShorthandFamily } from '../../src/rules/enforce-shorthand'
 

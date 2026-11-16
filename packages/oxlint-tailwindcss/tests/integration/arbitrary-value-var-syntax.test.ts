@@ -12,7 +12,7 @@
  * syntax the project settles on, the arbitrary value is still an arbitrary value.
  */
 
-import { RuleTester } from 'oxlint/plugins-dev'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { noArbitraryValue } from '../../src/rules/no-arbitrary-value'
 import { enforceConsistentVariableSyntax } from '../../src/rules/enforce-consistent-variable-syntax'
 

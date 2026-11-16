@@ -27,7 +27,7 @@
  * example that starts with JSX is wrapped in a fragment, and elsewhere a JSX
  * line gets the `;` that keeps it from continuing the previous statement.
  */
-import { afterAll, beforeAll, describe, expect, it } from 'vitest'
+import { afterAll, beforeAll, describe, expect, it } from 'vite-plus/test'
 import { execFileSync } from 'node:child_process'
 import {
   cpSync,

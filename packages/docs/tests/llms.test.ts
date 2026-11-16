@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { SITE_URL } from '../.vitepress/seo.ts'
 import { buildLlmsFull, buildLlmsTxt, markdownCopy, type DocPage } from '../scripts/llms.ts'
 

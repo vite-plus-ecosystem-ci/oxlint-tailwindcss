@@ -1,6 +1,6 @@
 import { resolve } from 'node:path'
-import { afterAll, beforeAll, describe } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { afterAll, beforeAll, describe } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { noDefaultPalette } from '../../src/rules/no-default-palette'
 import { getLoadedDesignSystem, resetDesignSystem } from '../../src/design-system/loader'
 import { runWithFixture } from '../utils/with-fixture'
