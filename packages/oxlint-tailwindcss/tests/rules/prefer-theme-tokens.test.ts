@@ -1,6 +1,6 @@
 import { resolve } from 'node:path'
-import { afterAll, beforeAll, beforeEach, describe } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { afterAll, beforeAll, beforeEach, describe } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { preferThemeTokens } from '../../src/rules/prefer-theme-tokens'
 import { getLoadedDesignSystem, resetDesignSystem } from '../../src/design-system/loader'
 import { resetExtractorConfig } from '../../src/utils/extractors'

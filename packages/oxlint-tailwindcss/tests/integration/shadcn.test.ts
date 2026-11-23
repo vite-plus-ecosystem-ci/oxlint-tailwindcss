@@ -12,7 +12,7 @@
  */
 
 import { resolve } from 'node:path'
-import { afterAll, beforeAll, describe } from 'vitest'
+import { afterAll, beforeAll, describe } from 'vite-plus/test'
 import { makeFixtureRunner } from '../utils/with-fixture'
 import { noUnknownClasses } from '../../src/rules/no-unknown-classes'
 import { noConflictingClasses } from '../../src/rules/no-conflicting-classes'

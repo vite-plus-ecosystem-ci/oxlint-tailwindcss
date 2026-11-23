@@ -1,5 +1,5 @@
 import { resolve } from 'node:path'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { noConflictingClasses } from '../../src/rules/no-conflicting-classes'
 import { noRestrictedClasses } from '../../src/rules/no-restricted-classes'
 import { makeFixtureRunner } from '../utils/with-fixture'

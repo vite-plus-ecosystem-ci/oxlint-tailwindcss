@@ -16,7 +16,7 @@
 // This test pins down: same stylesheet → same order (our promise), and
 // documents the divergence so a future change doesn't regress the diagnosis.
 
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect } from 'vite-plus/test'
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { createRequire } from 'node:module'

@@ -1,5 +1,5 @@
 import { resolve } from 'node:path'
-import { beforeEach, describe, expect, it } from 'vitest'
+import { beforeEach, describe, expect, it } from 'vite-plus/test'
 import {
   CANONICALIZE_HANDLER,
   canonicalizeClassesSync,

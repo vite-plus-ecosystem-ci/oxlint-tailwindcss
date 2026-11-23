@@ -1,6 +1,6 @@
 import { resolve } from 'node:path'
-import { describe } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { describe } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { enforcePhysical } from '../../src/rules/enforce-physical'
 import { PHYSICAL_TO_LOGICAL_MAPPINGS, invertAxisMappings } from '../../src/rules/enforce-logical'
 import { makeFixtureRunner } from '../utils/with-fixture'

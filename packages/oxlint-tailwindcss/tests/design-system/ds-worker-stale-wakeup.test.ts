@@ -10,7 +10,7 @@
  * The window is a few microseconds wide, so each test delivers such a wake-up
  * by hand instead of waiting for the scheduler to produce one.
  */
-import { afterEach, describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it } from 'vite-plus/test'
 import { resolve } from 'node:path'
 import { DesignSystemWorker, makeWorkerScript } from '../../src/design-system/ds-worker'
 

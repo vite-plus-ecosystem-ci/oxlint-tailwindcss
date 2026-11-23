@@ -1,6 +1,6 @@
 import { relative, resolve } from 'node:path'
-import { afterAll, beforeAll, describe } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { afterAll, beforeAll, describe } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { noBorrowedComponentStyles } from '../../src/rules/no-borrowed-component-styles'
 import { getLoadedDesignSystem, resetDesignSystem } from '../../src/design-system/loader'
 import { runWithFixture } from '../utils/with-fixture'

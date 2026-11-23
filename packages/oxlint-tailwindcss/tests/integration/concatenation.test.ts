@@ -12,7 +12,7 @@
  */
 
 import { resolve } from 'node:path'
-import { afterAll, beforeAll, describe } from 'vitest'
+import { afterAll, beforeAll, describe } from 'vite-plus/test'
 import { getLoadedDesignSystem, resetDesignSystem } from '../../src/design-system/loader'
 import { makeFixtureRunner } from '../utils/with-fixture'
 import { enforceLogical } from '../../src/rules/enforce-logical'

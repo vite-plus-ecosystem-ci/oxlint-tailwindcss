@@ -1,6 +1,6 @@
 import { resolve } from 'node:path'
-import { beforeAll } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { beforeAll } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { enforceCanonical } from '../../src/rules/enforce-canonical'
 import { getLoadedDesignSystem, resetDesignSystem } from '../../src/design-system/loader'
 import { runWithFixture } from '../utils/with-fixture'

@@ -5,7 +5,7 @@
  * precomputed cache entry, avoiding redundant child process spawns.
  */
 
-import { describe, it, expect, beforeAll, afterAll } from 'vitest'
+import { describe, it, expect, beforeAll, afterAll } from 'vite-plus/test'
 import { resolve, join, dirname } from 'node:path'
 import { mkdirSync, copyFileSync, rmSync, writeFileSync, utimesSync } from 'node:fs'
 import { cacheArtifactPaths, loadDesignSystemSync } from '../../src/design-system/sync-loader'

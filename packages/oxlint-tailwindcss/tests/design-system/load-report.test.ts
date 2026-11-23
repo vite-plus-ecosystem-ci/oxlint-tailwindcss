@@ -4,7 +4,7 @@
  * each of the worker's phases, measured by the precompute script itself (so
  * the numbers are the real script's, not a copy's).
  */
-import { afterAll, afterEach, beforeAll, describe, expect, it, vi } from 'vitest'
+import { afterAll, afterEach, beforeAll, describe, expect, it, vi } from 'vite-plus/test'
 import { rmSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { loadDesignSystemSync, takeLoadReport } from '../../src/design-system/sync-loader'

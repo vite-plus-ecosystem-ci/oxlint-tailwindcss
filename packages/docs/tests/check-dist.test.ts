@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { SITE_NAME, SITE_URL, pageHead, siteHead } from '../.vitepress/seo.ts'
 import { checkDist, type DistFiles } from '../scripts/check-dist.ts'
 

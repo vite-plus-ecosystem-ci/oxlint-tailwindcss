@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it } from 'vite-plus/test'
 import { resolve } from 'node:path'
 import { resetSortService, sortClassesSync } from '../../src/design-system/sort-service'
 import {

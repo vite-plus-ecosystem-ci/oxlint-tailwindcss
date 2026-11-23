@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { describe, expect, it } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { settingsProblems, SETTINGS_MESSAGE_ID } from '../../src/utils/settings-check'
 import { noDuplicateClasses } from '../../src/rules/no-duplicate-classes'
 import plugin from '../../src/index'

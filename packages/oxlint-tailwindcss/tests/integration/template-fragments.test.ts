@@ -19,8 +19,8 @@
  */
 
 import { resolve } from 'node:path'
-import { afterAll, beforeAll, describe } from 'vitest'
-import { RuleTester } from 'oxlint/plugins-dev'
+import { afterAll, beforeAll, describe } from 'vite-plus/test'
+import { RuleTester } from 'vite-plus/lint/plugins-dev'
 import { getLoadedDesignSystem, resetDesignSystem } from '../../src/design-system/loader'
 import { makeFixtureRunner } from '../utils/with-fixture'
 import { consistentVariantOrder } from '../../src/rules/consistent-variant-order'
